@@ -1,0 +1,66 @@
+.star-icon{
+  color:	#FF69B4;
+  float: right;
+  padding-right: 10px;
+  cursor: pointer;
+  padding-top: 2%;
+}
+
+.proj-dcrp{
+  position: relative;
+}
+
+.proj-pic{
+  width: 100%;
+  height: 200px;
+}
+
+.proj-tech{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.project-box{
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: 10px 2px 5px 0;
+  -webkit-box-shadow: 10px 10px 6px -6px #777;
+  -moz-box-shadow:10px 10px 6px -6px #777;
+  box-shadow:10px 10px 6px -6px #777;
+  max-width: 400px;
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 10px;
+  max-height: 340px;
+  font-family: Calibri;
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: white;
+  height: 400px;
+}
+
+.pic-container{
+  max-width: 400px;
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+}
+
+.link-icon{
+  color: #F5B041;
+  padding-left: 8px;
+}
+
+.proj-title{
+  background-color: #f4a460;
+  color: white;
+  padding-left: 10px;
+}
+
+.proj-text{
+  height: 68px;
+  padding: 10px
+}

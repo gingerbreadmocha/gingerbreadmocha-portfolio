@@ -1,0 +1,88 @@
+
+.navbar{
+  padding: 15px 10px;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+}
+
+.bar-title{
+  padding-top: 20px;
+}
+
+#sidebar{
+  width: 250px;
+  bottom: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background: #AED6F1;
+  color: #fff;
+  font-size: 24px;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+#sidebar.active{
+  margin-left: -250px;
+}
+
+#sidebar .sidebar-header{
+  padding: 20px;
+  background: #AED6F1;
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+  border-bottom: 1px solid #AED6F1;
+}
+
+#sidebar ul li a{
+  padding: 10px;
+  display: block;
+  color:#5499C7;
+}
+
+#sidebar ul li a:hover{
+  color:#76D7C4;
+  background: #FAD7A0;
+  text-decoration: none;
+}
+
+#sidebar ul a.active{
+  color: #fff;
+  background: #F5B041;
+}
+
+@media (max-width: 768px){
+  #sidebar {
+    margin-left: -250px;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+}
+
+@media(max-height: 400px){
+  #sidebar ul li a{
+    font-size: 18px;
+    padding: 5px;
+  }
+}
+
+.toggleBar{
+  color: white;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.bar-img{
+  max-height: 100%;
+  width: 250px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -100;
+}

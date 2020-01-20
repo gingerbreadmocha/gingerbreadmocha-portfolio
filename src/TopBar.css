@@ -1,0 +1,25 @@
+.topbar{
+  font-family: Calibri;
+  font-size: 24px;
+  margin-bottom: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #5DADE2;
+  color: white;
+}
+
+.barButt{
+  position: absolute;
+  left: 15px;
+  padding-bottom: 2px;
+  color: white;
+  padding-top: 5px;
+  border: none;
+  outline: none;
+  background-color: #5DADE2;
+
+}
+
+.barButt:focus{
+  outline: none;
+}

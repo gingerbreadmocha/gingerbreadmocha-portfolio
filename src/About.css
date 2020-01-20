@@ -1,0 +1,29 @@
+.about-pg{
+
+}
+
+.about-title{
+  background-color: #A52A2A;
+  color: white;
+  font-size: 300%;
+  height: 100px;
+  text-align: left;
+}
+
+.about-tai{
+  padding-top: 3.6%;
+  padding-left: 1%;
+}
+
+.about-facts{
+  padding: 20px;
+  font-size: 200%;
+}
+
+.about-content{
+  padding: 10%;
+}
+
+.about-quote{
+  padding: 3%;
+}

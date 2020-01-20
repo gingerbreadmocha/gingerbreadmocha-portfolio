@@ -1,0 +1,14 @@
+.title-pg{
+  background-image: url("/assets/note1.png");
+  height: 100vh;
+  color: white;
+  font-size: 350%;
+  background-size: cover;
+}
+
+.title-quote{
+  text-align: left;
+  padding-top: 15%;
+  text-decoration-color: #FFD700;
+  padding-left: 2%;
+}

@@ -1,0 +1,49 @@
+.contact-pg{
+  height: 100vh;
+}
+
+.contact-title{
+  background-color: #A52A2A;
+  color: white;
+  font-size: 300%;
+  height: 100px;
+  text-align: left;
+}
+
+.contact-tai{
+  padding-top: 3.6%;
+  padding-left: 1%;
+}
+
+.contact-content{
+  padding: 10%;  
+  font-size: 300%;
+  color: black;
+  text-align: left;
+}
+
+.icon{
+  color: #F5B041;
+}
+
+.link{
+  color: black;
+  font-family: Calibri;
+}
+
+.contact-stuff{
+  padding: 30px;
+  font-family: Calibri;
+}
+
+@media (max-width : 1200px) {
+  .contact-content{
+    font-size: 28px;
+  }
+}
+
+@media (max-width : 480px) {
+  .contact-content{
+    font-size: 16px;
+  }
+}
